@@ -1,0 +1,29 @@
+
+B5: INTEGRASI RANGKAIAN PRAPROSES
+NIM: 233051007
+SEED: 1007
+
+Pengujian membandingkan 3 konfigurasi praproses
+pada 60 citra yang berhasil diproses.
+
+Konfigurasi dengan PSNR rata-rata tertinggi adalah:
+CLAHE_Median3
+
+PSNR rata-rata:
+17.564 dB
+
+Kontras bercak rata-rata:
+2.495
+
+Waktu proses rata-rata:
+5.958 ms
+
+Interpretasi:
+PSNR menunjukkan kemiripan hasil praproses terhadap citra referensi
+bersih. Kontras bercak digunakan untuk mengamati perbedaan intensitas
+antara area bercak dan area daun sehat. Waktu proses digunakan untuk
+membandingkan biaya komputasi setiap konfigurasi.
+
+Konfigurasi dengan PSNR tertinggi belum tentu paling baik untuk
+semua tujuan. Pemilihan parameter akhir perlu mempertimbangkan
+PSNR, kontras bercak, waktu proses, dan kebutuhan analisis citra.

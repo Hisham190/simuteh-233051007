@@ -1,0 +1,6 @@
+Tahap,Parameter akhir,Bukti pendukung,Risiko jika tidak tepat
+1. Resize,Lebar 640 piksel,Petunjuk praktikum P5,Ukuran tidak seragam dan detail bercak dapat hilang
+2. Koreksi gamma,Gamma 1.0,"Evaluasi KB B5 menunjukkan peningkatan pada 4 dari 5 kondisi, tetapi kondisi terang menurun",Intensitas bercak dapat berubah dan KB dapat menurun
+3. CLAHE,"clipLimit 2.0, tileGridSize 8x8",Percobaan CLAHE pada B3,Kontras berlebihan dapat memperjelas noise dan tekstur yang menyerupai bercak
+4. Penapisan,"Median, kernel 3x3","B4: median 5x5 memperoleh PSNR rata-rata 41.51 dB, tetapi kernel besar dapat mengurangi detail bercak","Kernel besar dapat menghilangkan bercak kecil, sedangkan kernel kecil mungkin menyisakan noise"
+5. Penajaman,"tajam_k 0.0, penajaman dinonaktifkan",Parameter awal P5 dan perlunya menghindari penajaman berlebihan,Penajaman dapat memperkuat noise atau menghasilkan pola yang menyerupai bercak
