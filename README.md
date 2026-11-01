@@ -56,10 +56,10 @@ Dataset disimpan dalam direktori `data/sintetis/`.
 ## Progres Praktikum
 
 * [x] B1: Persiapan lingkungan dan formulasi masalah
-* [ ] B2: Citra dan warna
-* [ ] B3: Histogram
-* [ ] B4: Penapisan
-* [ ] B5: Praproses citra
+* [x] B2: Citra dan warna
+* [x] B3: Histogram
+* [x] B4: Penapisan
+* [x] B5: Praproses citra
 
 ## Menjalankan Proyek
 
